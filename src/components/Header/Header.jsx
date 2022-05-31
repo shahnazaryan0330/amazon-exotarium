@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { Nav, NavLink } from "react-bootstrap";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 import "./header.css";
 import Img1 from "./header-animal-1.png";
 import Img2 from "./header-animal-2.png";
@@ -75,7 +75,7 @@ export default function Header() {
           <div className="ms-5">
             <div className="header-title">{lang('header.welcome1')}</div>
             <div className="header-title">{lang('header.welcome2')}</div>
-            <CustomButton btnName={lang('customBtn.ticket')} btnWhite='true' link='#ticketInfo'/>
+            <CustomButton btnName={lang('customBtn.ticket')} btnWhite='true' link='#ticketInfo' />
           </div>
 
           <div className="header-animal d-none d-lg-flex align-items-end justify-content-end" style={styleTemplate}>

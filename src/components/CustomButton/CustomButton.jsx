@@ -7,7 +7,7 @@ export default function CustomButton(props) {
 
   return (
 
-    <Link id='customBtn' className={btnWhite === 'true' ? 'btnVar1' : 'btnVar2'} href={link}>{btnName} </Link>
+    <Link id='customBtn' className={btnWhite === 'true' ? 'btnVar1' : 'btnVar2'} to={link}>{btnName} </Link>
 
   )
 }
