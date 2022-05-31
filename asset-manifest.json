@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/amazon-exotarium/static/css/main.9fa8e87f.css",
+    "main.js": "/amazon-exotarium/static/js/main.4c0591e2.js",
+    "static/js/787.f59a6708.chunk.js": "/amazon-exotarium/static/js/787.f59a6708.chunk.js",
+    "static/media/header-animal-3.png": "/amazon-exotarium/static/media/header-animal-3.f608a1c263c0be4f6898.png",
+    "static/media/header-animal-2.png": "/amazon-exotarium/static/media/header-animal-2.8a41dbcbd33319e34f0f.png",
+    "static/media/logo.png": "/amazon-exotarium/static/media/logo.9398d97c2c30d99b1917.png",
+    "static/media/header-animal-1.png": "/amazon-exotarium/static/media/header-animal-1.e22df71895ae3ccaf213.png",
+    "static/media/background.jpg": "/amazon-exotarium/static/media/background.13d9f4bec36e3263499c.jpg",
+    "static/media/creeper_top.png": "/amazon-exotarium/static/media/creeper_top.5a130f9e54fded7276bc.png",
+    "static/media/amazon-text.otf": "/amazon-exotarium/static/media/amazon-text.c3b6e589d63475ccd3ff.otf",
+    "static/media/tablet_png.png": "/amazon-exotarium/static/media/tablet_png.4ff0689ce66cb77ff340.png",
+    "static/media/3.jpg": "/amazon-exotarium/static/media/3.a16f9a45d4e16183dbaa.jpg",
+    "static/media/news_1.jpg": "/amazon-exotarium/static/media/news_1.1bf814ab28be86c71536.jpg",
+    "static/media/animal.jpg": "/amazon-exotarium/static/media/animal.607422d4764850fcca96.jpg",
+    "static/media/amazon-title.otf": "/amazon-exotarium/static/media/amazon-title.0fb0198e284e693d37df.otf",
+    "static/media/2.jpg": "/amazon-exotarium/static/media/2.e6cde340dc50e251d476.jpg",
+    "static/media/1.jpg": "/amazon-exotarium/static/media/1.1ec6a95e69e9627570af.jpg",
+    "static/media/en_flag.png": "/amazon-exotarium/static/media/en_flag.0cc9121d41361a4bec91.png",
+    "static/media/tablet-title.otf": "/amazon-exotarium/static/media/tablet-title.33ae09df73c6df764ae1.otf",
+    "static/media/soc_icons_bg.png": "/amazon-exotarium/static/media/soc_icons_bg.ba2441762d9475a47e11.png",
+    "static/media/am_flag.png": "/amazon-exotarium/static/media/am_flag.9be2e1d8c814e19ea32b.png",
+    "index.html": "/amazon-exotarium/index.html",
+    "static/media/menu.svg": "/amazon-exotarium/static/media/menu.8e91a376ac54b2ee6c95.svg",
+    "main.9fa8e87f.css.map": "/amazon-exotarium/static/css/main.9fa8e87f.css.map",
+    "main.4c0591e2.js.map": "/amazon-exotarium/static/js/main.4c0591e2.js.map",
+    "787.f59a6708.chunk.js.map": "/amazon-exotarium/static/js/787.f59a6708.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fa8e87f.css",
+    "static/js/main.4c0591e2.js"
+  ]
+}
