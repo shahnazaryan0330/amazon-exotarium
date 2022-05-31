@@ -1,0 +1,13 @@
+.tablet {
+   background-image: url(./tablet_png.png);
+   width: max-content;
+   min-height: 60px;
+   min-width: 150px;
+    background-repeat: round;
+    color: white;
+    font-size: 19pt;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

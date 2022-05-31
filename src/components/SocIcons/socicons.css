@@ -1,0 +1,25 @@
+.socIcons {
+   display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.iconBg {
+   background: url(./soc_icons_bg.png);
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   margin: 0 10px;
+   color: rgba(0, 0, 0, 0.53);
+}
+
+.iconBg:hover {
+   color: white;
+}
+
+.icon {
+   width: 30px;
+   height: 30px;
+}

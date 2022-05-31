@@ -1,0 +1,59 @@
+.header-slider {
+   background-color: #0a7945;
+}
+.carousel-inner {
+   opacity: 0.2;
+}
+
+.slide1,
+.slide2,
+.slide3 {
+   background-size: cover;
+   background-position: 50% 20%;
+   width: 100%;
+   height: 100vh;
+}
+
+.slide1 {
+   background-image: url(./1.jpg);
+}
+
+.slide2 {
+   background-image: url(./2.jpg);
+}
+
+.slide3 {
+   background-image: url(./3.jpg);
+}
+
+.header-navbar {
+   margin-top: 20px;
+   width: 100%;
+   position: absolute;
+   z-index: 3;
+}
+
+.header-content {
+   bottom: 0;
+   width: 100%;
+   height: 65%;
+   position: absolute;
+   z-index: 3;
+   display: flex;
+   justify-content: space-between;
+}
+
+.header-title {
+   font-size: 5vw;
+   color: white;
+}
+
+.header-animal img {
+   height: 120%;
+}
+
+@media only screen and (max-width: 992px) {
+   .header-title {
+      font-size: 10vw;
+   }
+}
