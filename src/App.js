@@ -6,10 +6,10 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
-    <Router>
+    <Router> 
       <Routes>
         <Route path='*' element={<Home />} />
-        <Route path='/amazon-exotarium/about' element={<About />} />
+        <Route path='/about' element={<About />} />
       </Routes>
     </Router>
   );
