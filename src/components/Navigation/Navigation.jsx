@@ -5,12 +5,15 @@ import Flag from "./flag";
 import Logo from "./logo.png"
 
 import { useTranslation } from "react-i18next";
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+// import App from "../../App";
+// import AboutUs from "../About/AboutUs";
 
 export default function Navigation() {
   let [lang] = useTranslation();
 
   return (
-    <>
+    // <Router>
       <Navbar
         collapseOnSelect
         className="navbar-css"
@@ -29,7 +32,7 @@ export default function Navigation() {
             className="justify-content-center"
           >
             <Nav className="w-100 justify-content-start">
-              <NavLink href="/about">{lang('navbar.aboutUs')}</NavLink>
+              <NavLink href="/amazon-exotarium/about">{lang('navbar.aboutUs')}</NavLink>
               <NavLink href="/news">{lang('navbar.news')}</NavLink>
               <NavLink href="/multimedia">{lang('navbar.multimedia')}</NavLink>
               <NavLink href="/animals">{lang('navbar.ourAnimals')}</NavLink>
@@ -39,6 +42,10 @@ export default function Navigation() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </>
+    // {/* <Routes>
+    //     <Route path='/home' element={<App />} />
+    //     <Route path='/about' element={<AboutUs />} />
+    //   </Routes>
+    // </Router> */}
   );
 }

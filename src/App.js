@@ -1,24 +1,17 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header/Header'
-import Navigation from './components/Navigation/Navigation';
-import AboutUs from './components/About/AboutUs';
-import News from './components/News/News';
-import Animals from './components/Animals/Animals';
-import TicketInfo from './components/TicketInfo/TicketInfo'
-import Footer from './components/Footer/Footer'
+import Home from './Pages/Home';
+import About from './Pages/About';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+
 
 function App() {
   return (
-    <>
-      <Header />
-      <Navigation />
-      <AboutUs fullContent={false}/>
-      <News />
-      <Animals />
-      <TicketInfo />
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path='*' element={<Home />} />
+        <Route path='/amazon-exotarium/about' element={<About />} />
+      </Routes>
+    </Router>
   );
 }
 
