@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/amazon-exotarium/static/css/main.8a7194b5.css",
-    "main.js": "/amazon-exotarium/static/js/main.4a2e6ecf.js",
+    "main.js": "/amazon-exotarium/static/js/main.fe1b3090.js",
     "static/js/787.f59a6708.chunk.js": "/amazon-exotarium/static/js/787.f59a6708.chunk.js",
     "static/media/header-animal-3.png": "/amazon-exotarium/static/media/header-animal-3.f608a1c263c0be4f6898.png",
     "static/media/header-animal-2.png": "/amazon-exotarium/static/media/header-animal-2.8a41dbcbd33319e34f0f.png",
@@ -24,11 +24,11 @@
     "index.html": "/amazon-exotarium/index.html",
     "static/media/menu.svg": "/amazon-exotarium/static/media/menu.8e91a376ac54b2ee6c95.svg",
     "main.8a7194b5.css.map": "/amazon-exotarium/static/css/main.8a7194b5.css.map",
-    "main.4a2e6ecf.js.map": "/amazon-exotarium/static/js/main.4a2e6ecf.js.map",
+    "main.fe1b3090.js.map": "/amazon-exotarium/static/js/main.fe1b3090.js.map",
     "787.f59a6708.chunk.js.map": "/amazon-exotarium/static/js/787.f59a6708.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8a7194b5.css",
-    "static/js/main.4a2e6ecf.js"
+    "static/js/main.fe1b3090.js"
   ]
 }
