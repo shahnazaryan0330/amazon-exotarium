@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './customButton.css'
 
 export default function CustomButton(props) {
@@ -6,7 +7,7 @@ export default function CustomButton(props) {
 
   return (
 
-    <a id='customBtn' className={btnWhite === 'true' ? 'btnVar1' : 'btnVar2'} href={link}>{btnName} </a>
+    <Link id='customBtn' className={btnWhite === 'true' ? 'btnVar1' : 'btnVar2'} href={link}>{btnName} </Link>
 
   )
 }

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { Nav, NavLink } from "react-bootstrap";
+import {Link} from "react-router-dom"
 import "./header.css";
 import Img1 from "./header-animal-1.png";
 import Img2 from "./header-animal-2.png";
@@ -61,12 +62,12 @@ export default function Header() {
       <div className="header">
         <div className="header-navbar d-none d-lg-flex justify-content-center">
           <Nav className="w-100 justify-content-evenly">
-            <NavLink href="#">{lang('navbar.home')}</NavLink>
-            <NavLink href="/about">{lang('navbar.aboutUs')}</NavLink>
-            <NavLink href="#news">{lang('navbar.news')}</NavLink>
-            <NavLink href="/multimedia">{lang('navbar.multimedia')}</NavLink>
-            <NavLink href="/animals">{lang('navbar.ourAnimals')}</NavLink>
-            <NavLink href="/shop">{lang('navbar.shop')}</NavLink>
+            <Link className="nav-link" to="/">{lang('navbar.home')}</Link>
+            <Link className="nav-link" to="/about">{lang('navbar.aboutUs')}</Link>
+            <Link className="nav-link" to="/news">{lang('navbar.news')}</Link>
+            <Link className="nav-link" to="/multimedia">{lang('navbar.multimedia')}</Link>
+            <Link className="nav-link" to="/animals">{lang('navbar.ourAnimals')}</Link>
+            <Link className="nav-link" to="/shop">{lang('navbar.shop')}</Link>
           </Nav>
         </div>
 

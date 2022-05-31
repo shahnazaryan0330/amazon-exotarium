@@ -12,7 +12,7 @@
       "welcome2": "AMAZON EXOTARIUM"
    },
    "customBtn": {
-      "ticket": "TICKETS PRICE",
+      "ticket": "TICKET PRICES",
       "knowMore": "Know more"
    },
    "contact": {
@@ -23,7 +23,7 @@
    "tablet": {
       "aboutUs": "ABOUT US",
       "news": "NEWS",
-      "ticket": "TICKETS PRICE"
+      "ticket": "TICKET PRICES"
    },
    "form": {
       "title": "FEEDBACK",
