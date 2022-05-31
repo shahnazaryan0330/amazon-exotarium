@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav, Navbar, NavLink, Container } from "react-bootstrap";
+import {Link} from "react-router-dom"
 import "./navigation.css";
 import Flag from "./flag";
 import Logo from "./logo.png"
@@ -18,7 +19,9 @@ export default function Navigation() {
         sticky="top"
       >
         <Container>
-          <Navbar.Brand className="logoBlock" href="/home"><img src={Logo} alt="logo" /></Navbar.Brand>
+          <Navbar.Brand className="logoBlock">
+            <Link to='/'><img src={Logo} alt="logo" /></Link>
+          </Navbar.Brand>
           <Navbar.Toggle
             border="light"
             aria-controls="responsive-navbar-nav"
@@ -28,11 +31,11 @@ export default function Navigation() {
             className="justify-content-center"
           >
             <Nav className="w-100 justify-content-start">
-              <NavLink href="/about">{lang('navbar.aboutUs')}</NavLink>
-              <NavLink href="/news">{lang('navbar.news')}</NavLink>
-              <NavLink href="/multimedia">{lang('navbar.multimedia')}</NavLink>
-              <NavLink href="/animals">{lang('navbar.ourAnimals')}</NavLink>
-              <NavLink href="/shop">{lang('navbar.shop')}</NavLink>
+              <Link className="nav-link" to="/about">{lang('navbar.aboutUs')}</Link>
+              <Link className="nav-link" to="/news">{lang('navbar.news')}</Link>
+              <Link className="nav-link" to="/multimedia">{lang('navbar.multimedia')}</Link>
+              <Link className="nav-link" to="/animals">{lang('navbar.ourAnimals')}</Link>
+              <Link className="nav-link" to="/shop">{lang('navbar.shop')}</Link>
             </Nav>
             <Flag />
           </Navbar.Collapse>
