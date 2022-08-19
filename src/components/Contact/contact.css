@@ -1,0 +1,17 @@
+.contact {
+   width: 90%;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.contact a {
+   color: white;
+   text-decoration: none;
+   margin: 0 25px;
+}
+
+.contact a:hover {
+   color: greenyellow;
+   text-decoration: solid;
+}

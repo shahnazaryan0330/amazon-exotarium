@@ -1,0 +1,42 @@
+@font-face {
+   font-family: amazon-title;
+   src: url(./fonts/amazon-title.otf);
+ }
+ 
+ @font-face {
+   font-family: amazon-text;
+   src: url(./fonts/amazon-text.otf);
+ }
+ 
+ @font-face {
+   font-family: tablet-title;
+   src: url(./fonts/tablet-title.otf);
+ }
+ 
+ .nav-link,
+ .header-title,
+ .btn,
+ .cardTitle,
+ .footerTitle{
+   font-family: amazon-title;
+ }
+ 
+ .text-content,
+ .cardText,
+ .contact a,
+ .customBtn {
+   font-family: amazon-text;
+   font-size: 13pt;
+ }
+ 
+ .tablet {
+   font-family: amazon-title;
+   font-weight: bold;
+ }
+ 
+ .customContainer {
+   margin-bottom: 100px !important;
+   padding: 0 8%;
+ }
+ 
+ 

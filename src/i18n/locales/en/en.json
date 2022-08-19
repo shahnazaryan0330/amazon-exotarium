@@ -1,0 +1,38 @@
+{
+   "navbar": {
+      "home": "HOME",
+      "aboutUs": "ABOUT US",
+      "news": "NEWS",
+      "multimedia": "MULTIMEDIA",
+      "ourAnimals": "OUR ANIMALS",
+      "shop": "SHOP"
+   },
+   "header": {
+      "welcome1": "WELCOME TO THE",
+      "welcome2": "AMAZON EXOTARIUM"
+   },
+   "customBtn": {
+      "ticket": "TICKET PRICES",
+      "knowMore": "Know more"
+   },
+   "contact": {
+      "phone": "Tel",
+      "mail": "E-mail",
+      "address": "Address"
+   },
+   "tablet": {
+      "aboutUs": "ABOUT US",
+      "news": "NEWS",
+      "ticket": "TICKET PRICES"
+   },
+   "form": {
+      "title": "FEEDBACK",
+      "name": "Name Surname",
+      "mail": "E-mail",
+      "phone": "Phone",
+      "message": "Your Message"
+   },
+   "aboutUs": {
+      "content": "The history of the Amazon Exotarium is the result of a professional dedication that has gone through a long path of development, establishment and creativity, bringing with it wide recognition. The Amazon Exotarium was founded by Aram Danielyan, a man whose selfless and compassionate work, effort and energy only made it succeed. The process of collecting exotarium animal species  began in the early 1990s and continues to this day, remaining inseparable  from the processes of conservation and reproduction. On May 1, 2012, the Amazon Exotarium opened its doors and welcomed visitors for the first time in the Victory Park, later opening another branch in Yerevan Mall, but thanks to Aram Danielyan's creative thinking and love for the children, a new project called Baby Zoo was created, especially for young visitors. One of the guidelines for the long-term activity of the Amazon exotarium has always been the true love for animals and the provision of cognitive knowledge, raising the level of education, exchange of experience, ensuring correct and competent human-animal contact, while helping to overcome fear, if it exists. The Amazon Exotarium stands out with its display of unique animals that have always amazed everyone, even the most tasteful visitors."
+   }
+}

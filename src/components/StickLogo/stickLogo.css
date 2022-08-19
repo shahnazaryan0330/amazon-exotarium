@@ -1,0 +1,12 @@
+.stickLogo {
+   width: 200px;
+   display: block;
+   position: sticky;
+   z-index: 10;
+   top: 80%;
+   left: 10px;
+}
+
+.stickLogo img {
+   width: 100%;
+}

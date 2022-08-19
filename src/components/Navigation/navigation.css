@@ -1,0 +1,44 @@
+.navbar-css {
+   background-color: #15b461;
+   padding: 0px 30px;
+}
+
+.navbar-toggler-icon {
+   background-image: url(./menu.svg) !important;
+   color: white;
+}
+
+.logoBlock {
+   width: 100px;
+   display: block;
+}
+
+.logoBlock img {
+   width: 100%;
+}
+
+.navbar-toggler {
+   color: white !important;
+   border: none !important;
+}
+
+.toggle_lan {
+   background-color: transparent;
+   border: none;
+}
+
+.toggle_lan img {
+   border: 2px solid white;
+   border-radius: 50%;
+   width: 40px;
+}
+
+.nav-link {
+   color: rgb(255, 255, 255) !important;
+   font-size: 19pt;
+   padding: 20px 25px !important;
+}
+
+.nav-link:hover {
+   background-color: #00000054;
+}
